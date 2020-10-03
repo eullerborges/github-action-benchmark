@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1591796792063,
+  "lastUpdate": 1601752731605,
   "entries": {
     "Rust Benchmark": [
       {
@@ -26015,6 +26015,42 @@ window.BENCHMARK_DATA = {
             "value": 30070.168987449662,
             "unit": "ns/iter",
             "extra": "iterations: 23268\ncpu: 30057.73521574695 ns\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "eullerborges@opacium.com",
+            "name": "Euller Borges",
+            "username": "eullerborges"
+          },
+          "committer": {
+            "email": "eullerborges@opacium.com",
+            "name": "Euller Borges",
+            "username": "eullerborges"
+          },
+          "distinct": true,
+          "id": "f1569da0f1980cf12bf12684515b1efcbd79da8f",
+          "message": "Merge branch 'private_token_removal'",
+          "timestamp": "2020-10-03T16:18:13-03:00",
+          "tree_id": "fdb645158fbafa7fad1ba12536c9342979fac4b0",
+          "url": "https://github.com/eullerborges/github-action-benchmark/commit/f1569da0f1980cf12bf12684515b1efcbd79da8f"
+        },
+        "date": 1601752729497,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "fib_10",
+            "value": 228.09013332787234,
+            "unit": "ns/iter",
+            "extra": "iterations: 2829941\ncpu: 227.9764977432392 ns\nthreads: 1"
+          },
+          {
+            "name": "fib_20",
+            "value": 29010.328534091237,
+            "unit": "ns/iter",
+            "extra": "iterations: 21809\ncpu: 29009.404603604027 ns\nthreads: 1"
           }
         ]
       }
