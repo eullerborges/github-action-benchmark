@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1601752754953,
+  "lastUpdate": 1601752959282,
   "entries": {
     "Rust Benchmark": [
       {
@@ -6250,6 +6250,66 @@ window.BENCHMARK_DATA = {
             "name": "bench_fib_20",
             "value": 30904,
             "range": "± 8758",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "eullerborges@opacium.com",
+            "name": "Euller Borges",
+            "username": "eullerborges"
+          },
+          "committer": {
+            "email": "eullerborges@opacium.com",
+            "name": "Euller Borges",
+            "username": "eullerborges"
+          },
+          "distinct": true,
+          "id": "f1569da0f1980cf12bf12684515b1efcbd79da8f",
+          "message": "Merge branch 'private_token_removal'",
+          "timestamp": "2020-10-03T16:18:13-03:00",
+          "tree_id": "fdb645158fbafa7fad1ba12536c9342979fac4b0",
+          "url": "https://github.com/eullerborges/github-action-benchmark/commit/f1569da0f1980cf12bf12684515b1efcbd79da8f"
+        },
+        "date": 1601752957225,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "BenchFib10",
+            "value": 235,
+            "range": "± 18",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "BenchFib20",
+            "value": 31677,
+            "range": "± 1757",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Fibonacci/Recursive/20",
+            "value": 32330,
+            "range": "± 2375",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Fibonacci/Iterative/20",
+            "value": 6,
+            "range": "± 0",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Fibonacci/Recursive/21",
+            "value": 52087,
+            "range": "± 4778",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Fibonacci/Iterative/21",
+            "value": 6,
+            "range": "± 0",
             "unit": "ns/iter"
           }
         ]
