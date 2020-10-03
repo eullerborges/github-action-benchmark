@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1601752748612,
+  "lastUpdate": 1601752754953,
   "entries": {
     "Rust Benchmark": [
       {
@@ -27605,6 +27605,44 @@ window.BENCHMARK_DATA = {
             "name": "Fibonacci 20",
             "value": 20.417,
             "range": "± 4.037",
+            "unit": "us",
+            "extra": "100 samples\n2 iterations"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "eullerborges@opacium.com",
+            "name": "Euller Borges",
+            "username": "eullerborges"
+          },
+          "committer": {
+            "email": "eullerborges@opacium.com",
+            "name": "Euller Borges",
+            "username": "eullerborges"
+          },
+          "distinct": true,
+          "id": "f1569da0f1980cf12bf12684515b1efcbd79da8f",
+          "message": "Merge branch 'private_token_removal'",
+          "timestamp": "2020-10-03T16:18:13-03:00",
+          "tree_id": "fdb645158fbafa7fad1ba12536c9342979fac4b0",
+          "url": "https://github.com/eullerborges/github-action-benchmark/commit/f1569da0f1980cf12bf12684515b1efcbd79da8f"
+        },
+        "date": 1601752752905,
+        "tool": "catch2",
+        "benches": [
+          {
+            "name": "Fibonacci 10",
+            "value": 175,
+            "range": "± 3",
+            "unit": "ns",
+            "extra": "100 samples\n212 iterations"
+          },
+          {
+            "name": "Fibonacci 20",
+            "value": 22.184,
+            "range": "± 874",
             "unit": "us",
             "extra": "100 samples\n2 iterations"
           }
