@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1601752736187,
+  "lastUpdate": 1601752739915,
   "entries": {
     "Rust Benchmark": [
       {
@@ -12029,6 +12029,42 @@ window.BENCHMARK_DATA = {
             "value": 51307,
             "unit": "ns/op",
             "extra": "30000 times\n2 procs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "eullerborges@opacium.com",
+            "name": "Euller Borges",
+            "username": "eullerborges"
+          },
+          "committer": {
+            "email": "eullerborges@opacium.com",
+            "name": "Euller Borges",
+            "username": "eullerborges"
+          },
+          "distinct": true,
+          "id": "f1569da0f1980cf12bf12684515b1efcbd79da8f",
+          "message": "Merge branch 'private_token_removal'",
+          "timestamp": "2020-10-03T16:18:13-03:00",
+          "tree_id": "fdb645158fbafa7fad1ba12536c9342979fac4b0",
+          "url": "https://github.com/eullerborges/github-action-benchmark/commit/f1569da0f1980cf12bf12684515b1efcbd79da8f"
+        },
+        "date": 1601752736415,
+        "tool": "go",
+        "benches": [
+          {
+            "name": "BenchmarkFib10",
+            "value": 441,
+            "unit": "ns/op",
+            "extra": "3000000 times\n2 procs"
+          },
+          {
+            "name": "BenchmarkFib20",
+            "value": 52372,
+            "unit": "ns/op",
+            "extra": "20000 times\n2 procs"
           }
         ]
       }
