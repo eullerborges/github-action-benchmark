@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1601752731605,
+  "lastUpdate": 1601752736187,
   "entries": {
     "Rust Benchmark": [
       {
@@ -22737,6 +22737,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00017075801844428619",
             "extra": "mean: 2.4110147870819794 msec\nrounds: 418"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "eullerborges@opacium.com",
+            "name": "Euller Borges",
+            "username": "eullerborges"
+          },
+          "committer": {
+            "email": "eullerborges@opacium.com",
+            "name": "Euller Borges",
+            "username": "eullerborges"
+          },
+          "distinct": true,
+          "id": "f1569da0f1980cf12bf12684515b1efcbd79da8f",
+          "message": "Merge branch 'private_token_removal'",
+          "timestamp": "2020-10-03T16:18:13-03:00",
+          "tree_id": "fdb645158fbafa7fad1ba12536c9342979fac4b0",
+          "url": "https://github.com/eullerborges/github-action-benchmark/commit/f1569da0f1980cf12bf12684515b1efcbd79da8f"
+        },
+        "date": 1601752731252,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "bench.py::test_fib_10",
+            "value": 51095.09580589966,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00001649120154847668",
+            "extra": "mean: 19.571349935399 usec\nrounds: 30960"
+          },
+          {
+            "name": "bench.py::test_fib_20",
+            "value": 414.6504959281766,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00030160917856754887",
+            "extra": "mean: 2.4116696104789277 msec\nrounds: 439"
           }
         ]
       }
